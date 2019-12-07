@@ -1,4 +1,5 @@
-def dailyTemperatures1(T):
+
+def dailyTemperatures1(T):#维护一个next数组 next[T[i]]=i 用时间换空间
     ans = [0] * len(T)
     nxt = [float('inf')] * 102
     for i in range(len(T) - 1, -1, -1):
@@ -7,7 +8,7 @@ def dailyTemperatures1(T):
             ans[i] = warmer_index - i
         nxt[T[i]] = i
     return ans
-def dailyTemperatures2(T):
+def dailyTemperatures2(T):#用栈来解决 其实就是之前小的元素无用了
     ans=[0]*len(T)
     stack=[]
     for i in range (len(T)-1,-1,-1):
@@ -17,4 +18,12 @@ def dailyTemperatures2(T):
             ans[i]=stack[-1]-i
         stack.append(i)
     return ans
-print(dailyTemperatures2([89,62,70,58,47,47,46,76,100,70]))
+def dailyTemperatures3(T):#一般解法，超时
+    ans=[0]*len(T)
+    for i in range (len(T)-2,-1,-1):
+        for j in range(i+1,len(T)):
+            if T[j]>T[i]:
+                ans[i]=j-i
+                break
+    return ans
+print(dailyTemperatures3([89,62,70,58,47,47,46,76,100,70]))
