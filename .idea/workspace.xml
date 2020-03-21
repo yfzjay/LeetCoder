@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56062e1c-e11d-434a-ba04-6a8f041f5c53" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="G:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XHzvJFi8CE4SYN1dDjv1oQSCpu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mapreduce2020" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="nele.options" />
+  </component>
+  <component name="RunManager" selected="Application.L9">
+    <configuration name="B2_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.string.B2_17" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.string.L242" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L409" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.string.L409" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.string.L5" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.string.L9" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.B2_17" />
+      <item itemvalue="Application.L242" />
+      <item itemvalue="Application.L409" />
+      <item itemvalue="Application.L5" />
+      <item itemvalue="Application.L9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.L9" />
+        <item itemvalue="Application.L5" />
+        <item itemvalue="Application.L409" />
+        <item itemvalue="Application.L242" />
+        <item itemvalue="Application.B2_17" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56062e1c-e11d-434a-ba04-6a8f041f5c53" name="Default Changelist" comment="" />
+      <created>1580718036406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580718036406</updated>
+      <workItem from="1580718043547" duration="24943000" />
+      <workItem from="1581051782878" duration="3550000" />
+      <workItem from="1581170449689" duration="192000" />
+      <workItem from="1581170896215" duration="41000" />
+      <workItem from="1581479038725" duration="9357000" />
+      <workItem from="1581667547128" duration="13792000" />
+      <workItem from="1581761343739" duration="924000" />
+      <workItem from="1581771349240" duration="109000" />
+      <workItem from="1581829863591" duration="10114000" />
+      <workItem from="1581849478253" duration="42000" />
+      <workItem from="1581925359160" duration="9260000" />
+      <workItem from="1582000816378" duration="215000" />
+      <workItem from="1582001144343" duration="9741000" />
+      <workItem from="1582182221740" duration="8477000" />
+      <workItem from="1582261554461" duration="1872000" />
+      <workItem from="1582266787643" duration="2780000" />
+      <workItem from="1582343703357" duration="13239000" />
+      <workItem from="1582428952101" duration="2429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581839549355">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581839549355" />
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1581997586632">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581997586632" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581996753452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581996753452" />
+    <state x="298" y="33" key="FileChooserDialogImpl" timestamp="1582453892943">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="298" y="33" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582453892943" />
+    <state width="1323" height="39" key="GridCell.Tab.0.bottom" timestamp="1582453896059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="39" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582453896059" />
+    <state width="1323" height="39" key="GridCell.Tab.0.center" timestamp="1582453896058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="39" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582453896058" />
+    <state width="1323" height="39" key="GridCell.Tab.0.left" timestamp="1582453896058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="39" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582453896058" />
+    <state width="1323" height="39" key="GridCell.Tab.0.right" timestamp="1582453896059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="39" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582453896058" />
+    <state width="1323" height="43" key="GridCell.Tab.1.bottom" timestamp="1582453896046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="43" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582453896046" />
+    <state width="1323" height="43" key="GridCell.Tab.1.center" timestamp="1582453896046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="43" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582453896046" />
+    <state width="1323" height="43" key="GridCell.Tab.1.left" timestamp="1582453896046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="43" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582453896046" />
+    <state width="1323" height="43" key="GridCell.Tab.1.right" timestamp="1582453896046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="43" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582453896046" />
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1581996566051">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1581996566051" />
+    <state x="75" y="6" width="1039" height="722" key="SettingsEditor" timestamp="1582267284360">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="75" y="6" width="1039" height="722" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582267284360" />
+    <state x="293" y="267" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581996722320">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="293" y="267" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1581996722320" />
+    <state x="370" y="4" width="626" height="720" key="find.popup" timestamp="1581493364406">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="370" y="4" width="626" height="720" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581493364406" />
+    <state x="57" y="67" key="new project wizard" timestamp="1582037441141">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="67" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582037441141" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1580818862390">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580818862390" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582360445790">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582360445790" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/string/L9.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
