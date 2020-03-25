@@ -4,7 +4,7 @@ package LeetCode.Tree;
 import LeetCode.Linked.ListNode;
 
 public class L109 {
-    //用有序列表构建平衡的二叉排序树
+    //用有序链表构建平衡的二叉排序树
     //用快慢节点找到中间节点 构建一个树节点 之后把mid断链 而后左右分制
     public TreeNode sortedListToBST(ListNode head) {
         if(head==null) return null;
