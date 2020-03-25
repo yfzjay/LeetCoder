@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56062e1c-e11d-434a-ba04-6a8f041f5c53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="56062e1c-e11d-434a-ba04-6a8f041f5c53" name="Default Changelist" comment="20200325">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/array/L240.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/array/L378.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/array/L485.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/array/L485.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XHzvJFi8CE4SYN1dDjv1oQSCpu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -58,9 +57,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="nele.options" />
   </component>
-  <component name="RunManager" selected="Application.L9">
-    <configuration name="B2_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.string.B2_17" />
+  <component name="RunManager" selected="Application.L378">
+    <configuration name="L242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.string.L242" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -72,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.string.L242" />
+    <configuration name="L378" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.array.L378" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.string.*" />
+          <option name="PATTERN" value="LeetCode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +124,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.B2_17" />
       <item itemvalue="Application.L242" />
       <item itemvalue="Application.L409" />
       <item itemvalue="Application.L5" />
       <item itemvalue="Application.L9" />
+      <item itemvalue="Application.L378" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L378" />
         <item itemvalue="Application.L9" />
         <item itemvalue="Application.L5" />
         <item itemvalue="Application.L409" />
         <item itemvalue="Application.L242" />
-        <item itemvalue="Application.B2_17" />
       </list>
     </recent_temporary>
   </component>
@@ -185,10 +184,22 @@
       <workItem from="1584965958596" duration="36000" />
       <workItem from="1585120821204" duration="1148000" />
     </task>
+    <task id="LOCAL-00001" summary="20200325">
+      <created>1585124284012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585124284012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20200325" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200325" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581839549355">
@@ -203,10 +214,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581996753452" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1585124271633">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1585124597061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585124271633" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585124597061" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1585124057351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -255,6 +266,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="6" width="1039" height="722" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582267284360" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1585124588611">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585124588611" />
     <state x="293" y="267" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581996722320">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
