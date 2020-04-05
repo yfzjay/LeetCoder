@@ -26,7 +26,7 @@ public class L93 {
             return;
         }
         for(int i=0;i<=2&&i<s.length();i++){
-            //排除Ip中的以0打头的大于1的项
+            //排除Ip中的以0打头的长度大于1的项
             if(i!=0&&s.charAt(0)=='0'){
                 break;
             }
