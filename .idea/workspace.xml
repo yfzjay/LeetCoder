@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56062e1c-e11d-434a-ba04-6a8f041f5c53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Linked/L92.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/DFS/L51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Math/L69.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Sort/L215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Sort/L347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/bit/L136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/bit/L268.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/bit/L461.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Other/T1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/DFS/L17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/DFS/L17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Linked/L206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Linked/L206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/Linked/L206.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/Linked/L206.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +58,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tracing_omni" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="nele.options" />
   </component>
-  <component name="RunManager" selected="Application.L17">
+  <component name="RunManager" selected="Application.L215">
     <configuration name="L17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.DFS.L17" />
       <module name="LeetCode" />
@@ -72,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L378" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.array.L378" />
+    <configuration name="L215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Sort.L215" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.array.*" />
+          <option name="PATTERN" value="LeetCode.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L409" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.string.L409" />
+    <configuration name="L378" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.array.L378" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.string.*" />
+          <option name="PATTERN" value="LeetCode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.L409" />
       <item itemvalue="Application.L5" />
       <item itemvalue="Application.L9" />
       <item itemvalue="Application.L378" />
       <item itemvalue="Application.L17" />
+      <item itemvalue="Application.L215" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L215" />
         <item itemvalue="Application.L17" />
         <item itemvalue="Application.L378" />
         <item itemvalue="Application.L9" />
         <item itemvalue="Application.L5" />
-        <item itemvalue="Application.L409" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +197,12 @@
       <workItem from="1586153698257" duration="1358000" />
       <workItem from="1586166902651" duration="616000" />
       <workItem from="1586248325541" duration="3528000" />
-      <workItem from="1586487653652" duration="6249000" />
+      <workItem from="1586487653652" duration="7059000" />
+      <workItem from="1586929562005" duration="2953000" />
+      <workItem from="1587021788202" duration="3189000" />
+      <workItem from="1587027545980" duration="9770000" />
+      <workItem from="1587180491689" duration="4124000" />
+      <workItem from="1587266769831" duration="2169000" />
     </task>
     <task id="LOCAL-00001" summary="20200325">
       <created>1585124284012</created>
@@ -235,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586249549828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20200405">
+      <created>1586507626531</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586507626531</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,34 +291,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581996753452" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1586249547834">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1586507624760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586249547834" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586507624760" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1585124057351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1585124057351" />
-    <state x="298" y="33" key="FileChooserDialogImpl" timestamp="1586314135836">
+    <state x="298" y="33" key="FileChooserDialogImpl" timestamp="1587101373795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="298" y="33" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586314135836" />
-    <state width="1306" height="63" key="GridCell.Tab.0.bottom" timestamp="1586314136834">
+    <state x="298" y="33" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587101373795" />
+    <state width="1323" height="356" key="GridCell.Tab.0.bottom" timestamp="1587053282553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="63" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586314136834" />
-    <state width="1306" height="63" key="GridCell.Tab.0.center" timestamp="1586314136834">
+    <state width="1323" height="356" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587053282553" />
+    <state width="1323" height="356" key="GridCell.Tab.0.center" timestamp="1587053282553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="63" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586314136834" />
-    <state width="1306" height="63" key="GridCell.Tab.0.left" timestamp="1586314136834">
+    <state width="1323" height="356" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587053282553" />
+    <state width="1323" height="356" key="GridCell.Tab.0.left" timestamp="1587053282552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="63" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586314136834" />
-    <state width="1306" height="63" key="GridCell.Tab.0.right" timestamp="1586314136834">
+    <state width="1323" height="356" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587053282552" />
+    <state width="1323" height="356" key="GridCell.Tab.0.right" timestamp="1587053282553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="63" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586314136834" />
+    <state width="1323" height="356" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587053282553" />
     <state width="1323" height="43" key="GridCell.Tab.1.bottom" timestamp="1582453896046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -325,10 +343,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="6" width="1039" height="722" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582267284360" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1586249557180">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1586507635238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586249557180" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586507635238" />
     <state x="293" y="267" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581996722320">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -337,10 +355,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="477" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586071685139" />
-    <state x="370" y="4" width="626" height="720" key="find.popup" timestamp="1586060342208">
+    <state x="370" y="4" width="626" height="720" key="find.popup" timestamp="1587185123280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="370" y="4" width="626" height="720" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1586060342208" />
+    <state x="370" y="4" width="626" height="720" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1587185123280" />
     <state x="57" y="67" key="new project wizard" timestamp="1582037441141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -349,10 +367,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580818862390" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586059812731">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587022647800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586059812731" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587022647800" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
