@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 public class L215 {
     //解决Kth问题：排序，堆（优先队列），分治
-    //1、分治
+    //1、分治 时间复杂度：n+(2/n)+...=o(n)
     public int findKthLargest(int[] nums, int k) {
         //因为这里是从大到小第k个
         k=nums.length-k;
@@ -39,13 +39,18 @@ public class L215 {
         nums[j]=t;
     }
 
-    //2、堆：用java库中的优先队列
+    //2、堆：用java库中的优先队列 时间复杂度nlog(k)
     public int findKthLargest1(int[] nums, int k) {
         //建立一个小顶堆，每次向其中添加元素，如果大于k个poll一次堆顶，最后剩下的就是最大的k个，并且
         //堆顶是最大的k个中最小的
         PriorityQueue<Integer> priorityQueue=new PriorityQueue<>();
         for(int num:nums){
-            priorityQueue.add(num);
+            if(priorityQueue.size()==0) {
+                priorityQueue.add(num);
+                continue;
+            }
+            if(num>priorityQueue.peek())
+                priorityQueue.add(num);
             if(priorityQueue.size()>k){
                 priorityQueue.poll();
             }

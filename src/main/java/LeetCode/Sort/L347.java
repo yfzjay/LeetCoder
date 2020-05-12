@@ -1,11 +1,10 @@
 package LeetCode.Sort;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class L347 {
-    //用空间换时间 建立一些桶统计相同次数的数字 下标i的桶装的元素出现的次数是i
+    //用空间换时间 建立一些桶统计相同次数的数字 下标i的桶装的元素出现的次数是i 时间复杂度是o(n)
+    //如果用堆也可以解决，时间复杂度nlog(k)
     public List<Integer> topKFrequent(int[] nums, int k) {
         HashMap<Integer,Integer> frequencyNum=new HashMap<>();
         for(int num:nums){
