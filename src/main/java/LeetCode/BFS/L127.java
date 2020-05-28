@@ -29,9 +29,9 @@ public class L127 {
             while(size-->0){
                 int now = queue.poll();
                 if(now==end) return path;
-                mark[now]=true;
                 for(int next:lists[now]){
                     if(mark[next]) continue;
+                    mark[next]=true;
                     queue.add(next);
                 }
             }

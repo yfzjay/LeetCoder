@@ -2,7 +2,7 @@ package LeetCode.DFS;
 
 public class L200 {
 
-    private int dir[][]={{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    private int [][]dir={{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
     public int numIslands(char[][] grid) {
 
@@ -12,9 +12,10 @@ public class L200 {
         int result=0;
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                if(grid[i][j]!='0')
+                if(grid[i][j]!='0'){
                     result++;
                     dfs(grid,m,n,i,j);
+                }
             }
         }
         return result;
