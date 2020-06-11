@@ -13,7 +13,7 @@ public class L1091 {
         }
         if(grid[0][0]==1) return -1;
         Queue<Pair<Integer,Integer>> queue=new LinkedList<>();
-            int [][]dir={{-1,0},{1,0},{0,1},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}};
+        int [][]dir={{-1,0},{1,0},{0,1},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}};
         int m=grid.length;
         int n=grid[0].length;
         queue.add(new Pair<>(0,0));
@@ -28,7 +28,6 @@ public class L1091 {
                 if(k1==m-1&&k2==n-1){
                     return path;
                 }
-                grid[k1][k2]=1;
                 for(int i=0;i<8;i++){
                    int nk1=k1+dir[i][0];
                    int nk2=k2+dir[i][1];

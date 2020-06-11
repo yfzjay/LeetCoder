@@ -1,5 +1,7 @@
 package LeetCode.DFS;
 
+import java.util.HashMap;
+
 public class L130 {
     /*
     * 给定一个二维的矩阵，包含 'X' 和 'O'（字母 O）。
@@ -59,5 +61,10 @@ X O X X
         for(int d=0;d<4;d++){
             dfs(grid,i+dir[d][0],j+dir[d][1],m,n);
         }
+    }
+
+    public static void main(String[] args) {
+        HashMap<String,Node> hashMap=new HashMap();
+        hashMap.put("abc",new Node(3));
     }
 }

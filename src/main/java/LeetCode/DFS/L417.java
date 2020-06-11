@@ -43,7 +43,7 @@ public class L417 {
         for(int d=0;d<4;d++){
             int ni=i+dir[d][0];
             int nj=j+dir[d][1];
-            if(ni>=0&&ni<m&&nj>=0&&nj<n&&matrix[i][j]<=matrix[ni][nj])
+            if(ni>=0&&ni<m&&nj>=0&&nj<n&&matrix[i][j]<=matrix[ni][nj]&&!grid[ni][nj])
                 dfs(ni,nj,grid);
         }
     }
