@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76aca4ae-c2c9-490c-a2e1-4f9be376a5fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Linked/RandomListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/J24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/J25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/J3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/J35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/L26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/L27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/L7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/L8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/TreeLinkNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/L32_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/剑指offer/L32_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/剑指offer/J34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/剑指offer/J34.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LeetCode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/剑指offer/L28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/剑指offer/L28.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +115,7 @@
       <workItem from="1601972956313" duration="1037000" />
       <workItem from="1607501523529" duration="21201000" />
       <workItem from="1608794463112" duration="608000" />
+      <workItem from="1609313343457" duration="3884000" />
     </task>
     <servers />
   </component>
