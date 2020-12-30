@@ -26,6 +26,7 @@ public class J34 {
     }
 
     public static void main(String[] args) {
+        System.out.println("lalala");
         TreeNode root=new TreeNode(10);
         root.left=new TreeNode(5);
         root.left.left=new TreeNode(4);
