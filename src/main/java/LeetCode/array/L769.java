@@ -21,4 +21,8 @@ public class L769 {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+
+    }
 }

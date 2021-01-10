@@ -1,8 +1,6 @@
 package LeetCode.DFS;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class L47 {
     List<List<Integer>> res=new ArrayList<>();
@@ -31,5 +29,12 @@ public class L47 {
             flag[i]=false;
             values.remove(values.size()-1);
         }
+    }
+
+    public static void main(String[] args) {
+        Queue<Integer> queue=new LinkedList<>();
+        queue.add(1);
+        queue.add(2);
+        System.out.println(queue.poll());
     }
 }

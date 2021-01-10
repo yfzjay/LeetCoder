@@ -40,9 +40,9 @@ public class L79 {
         }
 
         visited[r][c] = true;
-
+        if(curLen+1==word.length()) return true;
         for (int[] d : direction) {
-            if(curLen+1==word.length()) return true;
+
             if (backtracking(curLen + 1, r + d[0], c + d[1], visited, board, word)) {
                 return true;
             }

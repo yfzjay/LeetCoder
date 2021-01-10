@@ -3,7 +3,11 @@ package 剑指offer;
 import java.util.ArrayList;
 
 public class J34 {
-
+    /*
+    * 回溯问题，要注意的是返回成功的操作是在上一层还是下一层完成
+    * 对于该题来说，如果在下一层完成，因为有左右两个孩子，因此会有两个相同的结果加到结果列表中
+    * 因此只能在上一层完成
+    * */
     private ArrayList<ArrayList<Integer>> res=new ArrayList<>();
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
             if(root==null) return res;
