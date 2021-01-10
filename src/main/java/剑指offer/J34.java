@@ -8,33 +8,28 @@ public class J34 {
     * 对于该题来说，如果在下一层完成，因为有左右两个孩子，因此会有两个相同的结果加到结果列表中
     * 因此只能在上一层完成
     * */
-    private ArrayList<ArrayList<Integer>> res=new ArrayList<>();
-    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
-            if(root==null) return res;
-            dfs(target,new ArrayList<Integer>(),root);
+    private ArrayList<ArrayList<Integer>> res;
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root,int target) {
+        res=new ArrayList<>();
+        if(root==null||target<0){
             return res;
+        }
+        dfs(root,target,new ArrayList<Integer>());
+        return res;
     }
-    public void dfs(int target,ArrayList<Integer> path,TreeNode node){
-        if(node==null||target<0){
+    private void dfs(TreeNode treeNode,int target,ArrayList<Integer> list){
+        if(treeNode==null||target<=0){
             return;
         }
-        target-=node.val;
-        path.add(node.val);
-        if(node.left==null&&node.right==null&&target==0){
-            res.add(new ArrayList<>(path));//注意这里要新New
+        list.add(treeNode.val);
+        target-=treeNode.val;
+        if(target==0&&treeNode.left==null&&treeNode.right==null){
+            res.add(list);
         }else{
-            dfs(target,path,node.left);
-            dfs(target,path,node.right);
+            dfs(treeNode.left,target,list);
+            dfs(treeNode.right,target,list);
         }
-        path.remove(path.size()-1);
+        list.remove(list.size()-1);
     }
 
-    public static void main(String[] args) {
-        TreeNode root=new TreeNode(10);
-        root.left=new TreeNode(5);
-        root.left.left=new TreeNode(4);
-        root.left.right=new TreeNode(7);
-        root.right=new TreeNode(12);
-        new J34().FindPath(root,22);
-    }
 }
